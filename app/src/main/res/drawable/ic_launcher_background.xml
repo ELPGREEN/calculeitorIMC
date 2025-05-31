@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#2C2F33"
+        android:pathData="M0,0h108v108h-108z"/>
+
+    <!-- Grid Lines Group -->
+    <group android:name="grid_lines">
+        <!-- Vertical Lines -->
+        <path
+            android:pathData="M10,0L10,108"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M20,0L20,108"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M30,0L30,108"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M40,0L40,108"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M50,0L50,108"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M60,0L60,108"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M70,0L70,108"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M80,0L80,108"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M90,0L90,108"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M100,0L100,108"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+
+        <!-- Horizontal Lines -->
+        <path
+            android:pathData="M0,10L108,10"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M0,20L108,20"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M0,30L108,30"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M0,40L108,40"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M0,50L108,50"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M0,60L108,60"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M0,70L108,70"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M0,80L108,80"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M0,90L108,90"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+        <path
+            android:pathData="M0,100L108,100"
+            android:strokeColor="#4AFFFFFF"
+            android:strokeWidth="1.0"/>
+    </group>
+
+    <!-- Inner Grid Lines Group -->
+    <group android:name="inner_grid_lines">
+        <!-- Inner Horizontal Lines -->
+        <path
+            android:pathData="M20,30L90,30"
+            android:strokeColor="#66FFFFFF"
+            android:strokeWidth="1.2"/>
+        <path
+            android:pathData="M20,40L90,40"
+            android:strokeColor="#66FFFFFF"
+            android:strokeWidth="1.2"/>
+        <path
+            android:pathData="M20,50L90,50"
+            android:strokeColor="#66FFFFFF"
+            android:strokeWidth="1.2"/>
+        <path
+            android:pathData="M20,60L90,60"
+            android:strokeColor="#66FFFFFF"
+            android:strokeWidth="1.2"/>
+        <path
+            android:pathData="M20,70L90,70"
+            android:strokeColor="#66FFFFFF"
+            android:strokeWidth="1.2"/>
+        <path
+            android:pathData="M20,80L90,80"
+            android:strokeColor="#66FFFFFF"
+            android:strokeWidth="1.2"/>
+
+        <!-- Inner Vertical Lines -->
+        <path
+            android:pathData="M30,20L30,90"
+            android:strokeColor="#66FFFFFF"
+            android:strokeWidth="1.2"/>
+        <path
+            android:pathData="M40,20L40,90"
+            android:strokeColor="#66FFFFFF"
+            android:strokeWidth="1.2"/>
+        <path
+            android:pathData="M50,20L50,90"
+            android:strokeColor="#66FFFFFF"
+            android:strokeWidth="1.2"/>
+        <path
+            android:pathData="M60,20L60,90"
+            android:strokeColor="#66FFFFFF"
+            android:strokeWidth="1.2"/>
+        <path
+            android:pathData="M70,20L70,90"
+            android:strokeColor="#66FFFFFF"
+            android:strokeWidth="1.2"/>
+        <path
+            android:pathData="M80,20L80,90"
+            android:strokeColor="#66FFFFFF"
+            android:strokeWidth="1.2"/>
+    </group>
+</vector>

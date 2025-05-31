@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Calculadora IMC"
+        android:textAppearance="@style/TextAppearance.Supremo.Headline2"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Calculadora IMC" />
+
+    <EditText
+        android:id="@+id/edit_weight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="16dp"
+        android:minHeight="48dp"
+        android:backgroundTint="@color/white"
+        android:hint="Peso"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_text" />
+
+    <TextView
+        android:id="@+id/text_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="56dp"
+        android:text="Altura"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_weight" />
+
+    <SeekBar
+        android:id="@+id/seekbar_height"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:max="250"
+        android:min="0"
+        android:progressBackgroundTint="@color/white"
+        android:progressTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_height" />
+
+    <TextView
+        android:id="@+id/text_height_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="36dp"
+        android:text="0 cm"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/seekbar_height"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="RESULTADO"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/button_clear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#2AD57A"
+        android:text="Limpar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekbar_height" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#2AD57A"
+        android:text="Calcular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekbar_height" />
+
+    <View
+        android:id="@+id/wave_view"
+        android:layout_width="0dp"
+        android:layout_height="145dp"
+        android:background="@drawable/wave"
+        android:backgroundTint="#2AD57A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
