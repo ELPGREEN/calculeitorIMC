@@ -1,4 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mysupremo</string>
-    <string name="invalid_weight" />
+    <string name="app_name">Calculadora IMC</string>
+    <string name="weight_hint">Peso</string>
+    <string name="height_hint">Altura</string>
+    <string name="height_value">%d cm</string>
+    <string name="weight_input_description">Digite o peso em quilogramas</string>
+    <string name="height_seekbar_description">Ajustar altura em centímetros</string>
+    <string name="calculate_button">Calcular</string>
+    <string name="clear_button">Limpar</string>
+    <string name="clear_button_description">Limpar entradas</string>
+    <string name="calculate_button_description">Calcular IMC</string>
+    <string name="result_placeholder">RESULTADO</string>
+    <string name="error_empty_fields">Por favor, preencha peso e altura</string>
+    <string name="error_invalid_values">Peso e altura devem ser números positivos</string>
+    <string name="error_invalid_input">Entrada inválida. Digite números válidos</string>
+    <string name="bmi_result">IMC: %.2f\nClassificação: %s</string>
+    <string name="bmi_underweight">Abaixo do peso</string>
+    <string name="bmi_normal">Normal</string>
+    <string name="bmi_overweight">Sobrepeso</string>
+    <string name="bmi_obese">Obesidade</string>
 </resources>

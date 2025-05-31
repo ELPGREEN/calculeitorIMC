@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.jogo.mysupremo"
+    namespace = "com.jogo.myapplication"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.jogo.mysupremo"
+        applicationId = "com.jogo.myapplication"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

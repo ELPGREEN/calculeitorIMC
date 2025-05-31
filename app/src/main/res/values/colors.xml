@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Core Colors -->
-    <color name="black">#FF000000</color> <!-- Pure black for text or accents -->
-    <color name="white">#FFFFFFFF</color> <!-- Pure white for text or backgrounds -->
-
-    <!-- Gradient Colors for Background -->
-    <color name="gradient_start">#4CAF50</color> <!-- Vibrant green for gradient start -->
-    <color name="gradient_center">#66BB6A</color> <!-- Mid-tone green for gradient center -->
-    <color name="gradient_end">#429899</color> <!-- Teal for gradient end -->
-
-    <!-- Grid Colors -->
-    <color name="grid_color">#4AFFFFFF</color> <!-- Semi-transparent white for outer grid lines -->
-    <color name="inner_grid_color">#80FFFFFF</color> <!-- More opaque white for inner grid lines -->
-
-    <!-- Stroke Color -->
-    <color name="stroke_color">#26FFFFFF</color> <!-- Subtle white stroke for shape outline -->
-
-    <!-- Additional Utility Colors -->
-    <color name="gray_dark">#FF2C2F33</color> <!-- Dark gray for alternative backgrounds -->
-    <color name="gray_light">#FFE0E0E0</color> <!-- Light gray for subtle accents -->
-
-    <!-- Error Color -->
-    <color name="red_error">#D32F2F</color> <!-- Material red for error states -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gradient_start">#4CAF50</color>
+    <color name="gradient_center">#66BB6A</color>
+    <color name="gradient_end">#429899</color>
+    <color name="grid_color">#4AFFFFFF</color>
+    <color name="inner_grid_color">#80FFFFFF</color>
+    <color name="stroke_color">#26FFFFFF</color>
+    <color name="gray_dark">#FF2C2F33</color>
+    <color name="gray_light">#FFE0E0E0</color>
+    <color name="red_error">#D32F2F</color>
+    <color name="dark_gradient_start">#2E7D32</color>
+    <color name="dark_gradient_center">#4CAF50</color>
+    <color name="dark_gradient_end">#2A6B6C</color>
+    <color name="button_color">#2AD57A</color>
 </resources>
